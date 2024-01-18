@@ -1,5 +1,12 @@
 main {
-    max-width: 600px;
+    max-width: 400px;
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(198, 61, 182, 0.2);
+    padding: 2rem;
+    background-color: #b2eff4;
+    text-align: center;
+    color: #2110d8;
 }
 
 aside {
@@ -7,9 +14,9 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 2rem;
-    background-color: #16d9ea;
+    background-color: #b2eff4;
     text-align: center;
-    color: #8177e9;
+    color: #2110d8;
 }
 
 aside img {
@@ -18,7 +25,7 @@ aside img {
 }
 
 main img {
-    width: 250px;
+    width: 200px;
     height: auto;
 }
 
@@ -27,5 +34,5 @@ p { padding: 0; }
 footer {
     margin-top: 20px;
     border-top: 1px solid #83ddf1;
-    text-align: centre;
+    text-align: centre; 
 }
