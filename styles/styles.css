@@ -22,7 +22,6 @@ aside {
 aside img {
     width: 200px;
     height: auto;
-    float: center;
     margin: 0 0 10px 15px;
     border: 1px solid #2007e3;;
     padding: 3px;
@@ -32,7 +31,6 @@ aside img {
 main img {
     width: 200px;
     height: auto;
-    float: centre;
     margin: 0 0 10px 15px;
     border: 1px solid #2007e3;
     padding: 3px;
