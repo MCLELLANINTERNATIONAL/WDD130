@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap")
+
 :root {
-    --primary-color:-primary-color: #FFB703;
+    --primary-color: #FFB703;
     --secondary-color: #0077B6;
     --accent-color: #99D98C;
     --additional-accent-color: #184E77;
