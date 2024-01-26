@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
 
 :root {
-    --primary-color: #FFB703;
+    --primary-color: #b98706;
     --secondary-color: #0077B6;
     --accent-color: #76C893;
     --additional-accent-color: #184E77;
@@ -11,7 +11,7 @@
 
     --nav-bg-color: #333; /* Corrected variable name */
     --nav-link-color: #FFF;
-    --nav-hover-link-color: #FFB703;
+    --nav-hover-link-color: #bd8a08;
     --nav-hover-background-color: #0077B6;
 }
 
