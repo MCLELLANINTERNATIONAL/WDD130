@@ -92,8 +92,8 @@ p {
 }
 
 footer {
-    margin-top: 20px;
-    border-top: 1px solid #1e7285;
+    margin-top: 0.1px;
+    border-top: 0.5px solid #1e7285;
     margin: 5em;
     text-align: left; 
 }
@@ -102,7 +102,7 @@ footer {
 
 .box {
     margin: 5em;
-    border: 1px solid rgba(38, 185, 230, 0.916);
+    border: 0.1px solid rgba(38, 185, 230, 0.916);
     padding: 3rem;
     background-color:  #7e76d9;
     color: #08e4f8;  
