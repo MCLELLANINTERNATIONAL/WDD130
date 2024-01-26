@@ -42,7 +42,7 @@ main img {
 
 ul.box {
     display: block;
-    width: 9.7em;
+    width: 10em;
     height: auto;
     margin: 200px;
     margin-top: 2.35em; 
@@ -50,7 +50,7 @@ ul.box {
     padding: 4px;
     background-color: #a9a3f4;
     color: #08e4f8;
-    text-align: left;    
+    text-align: centre;    
 }
 
 aside {
