@@ -21,13 +21,13 @@ body {
 main {
     max-width: 600px;
     width: 60em;
-    height: 18em;
+    height: 19em;
     margin: 8px;
     border: 3px solid #6e60d6;
     padding: 20px;
     background-color: #dfdaf0;
     text-align: left; 
-    margin-bottom: 3.5em;   
+    margin-bottom: 2.5em;   
 }
 
 main img {
@@ -45,7 +45,7 @@ ul.box {
     width: 9.7em;
     height: auto;
     margin: 200px;
-    margin-top: 1.6em; 
+    margin-top: 2.35em; 
     border: 3px solid rgba(38, 185, 230, 0.916);
     padding: 4px;
     background-color: #a9a3f4;
