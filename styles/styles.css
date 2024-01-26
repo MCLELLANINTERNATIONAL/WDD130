@@ -50,7 +50,8 @@ ul.box {
     padding: 4px;
     background-color: #a9a3f4;
     color: #08e4f8;
-    text-align: centre;    
+    text-align: centre;
+    list-style: none;    
 }
 
 aside {
