@@ -44,7 +44,7 @@ ul.box {
     display: block;
     width: 9.7em;
     height: auto;
-    margin: 2px;
+    margin: 200px;
     margin-top: 1.6em; 
     border: 3px solid rgba(38, 185, 230, 0.916);
     padding: 4px;
@@ -66,10 +66,13 @@ aside {
 
 .aside-h2 {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 100%;
+    top: 37.5px;
+    left: 240px;
+    transform: translate(-50%, -50%);
+    width: 450px;
     color: white;
+    box-shadow: 0 0 30px #111;
+	z-index: 1;
 }
 
 aside img {
