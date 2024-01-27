@@ -17,10 +17,17 @@
     --nav-hover-background-color: #0077B6; 
 }
 
-/* Apply styles to headings and paragraphs */
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, p, ul {
+  margin: 1px;
+  padding: 3px;
   color: var(--primary-color);
   font-family: var(--heading-font);
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
 }
 
 p {
@@ -28,16 +35,79 @@ p {
   font-family: var(--paragraph-font);
 }
 
-/* Style social media links */
-footer nav a {
-  text-decoration: none; /* Remove underlines */
+/* Style the header section */
+header {
+  background-color: #333;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
 }
 
-/* Limit the width of the page */
-body {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto; /* Center the content */
+.logo-box img {
+  display: block;
+  margin: 0 auto;
 }
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.hero img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+}
+
+/* Style the article section */
+.Purpose-Mission-Vision {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 40%;
+  background-color: rgba(255, 183, 3, 0.8); /* Adjust background color and opacity */
+  padding: 20px;
+  color: #FFF;
+}
+
+.Purpose-Mission-Vision img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+}
+
+footer nav a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Style social media icons */
+footer nav img {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+}
+
 
 /* Additional styles for .hero img */
 .hero img {
