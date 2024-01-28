@@ -29,11 +29,15 @@ body {
 }
 
 header {
-  text-align: left;
-  color:#3515ec;
+  display: flex;
+  flex-direction: column;
+  color: #3515ec;
   display: flex;
   justify-content: space between;
   align-items: center;
+}
+.logo-box {
+  margin-bottom: 20px; 
 }
 
 .logo-box img {
@@ -41,16 +45,8 @@ header {
   width: 100%;
   height: auto;
   max-width: 200px;
-}
-
-header-nav a {
-  color:var(--nav-hover-background-color);
-  text-decoration: none; 
-  text-align: left;
-  margin-left: 20px;
-}
-header-nav a:hover {
-  text-decoration: underline;
+  margin: 2px;
+  background-color: #FFFFFF;
 }
 
 p {  
@@ -59,30 +55,24 @@ p {
   font-family: var(--paragraph-font);
 }
 
-.logo-box img {
-  display: block;
-  margin: 2px auto;
-  background-color: #FFFFFF;
-}
-
-footer-nav {
+header-nav {
   font-size: 0.5em;
   display: flex;
   margin-top: 10px;
 }
 
-footer-nav a {
-  display: block;
-  color: var(--nav-link-color);
-  text-decoration: none;
-  padding: 1em;
+header-nav a {
+  color: var(--nav-hover-background-color);
+  text-decoration: none; 
+  text-align: left;
+  margin-left: 0 10px;
+  display: inline;
+  padding: 0;
   margin: 0 2px;
-  text-decoration: none;
 }
 
-.title {
-  margin-bottom: 0.4em;
-  color:#0874ad;
+header-nav a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -133,8 +123,59 @@ footer-nav a {
   margin-bottom: 0.5px;
 }
 
+section {
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px;
+  background-color: white; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;  
+}
+
+.history h2 {
+  text-align: center;
+  color:#099eed;
+}
+
+.history h2 p {
+  max-width: 800px; 
+  margin: 2px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.history img {
+  display: column;
+  max-width: 200px;
+  width: 100px;
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
+.wwr h2 {
+text-align: center;
+color:#099eed;
+}
+
+.wwr p {
+  margin-bottom: 15px; 
+  text-align: left;
+}
+
+.wwr img {
+  display: column;
+  max-width: 200px;
+  width: 200px;
+  height: auto; 
+  margin-bottom: 10px; 
+}
+
 footer {
-  color: #184E77; /* Added a missing semicolon */
+  color: #184E77; 
   text-align: center;
   padding: 10px;
 }
@@ -149,7 +190,7 @@ footer nav a {
   display: inline-block;
   text-decoration: none;
   margin: 0 10px;
-  transition: 5transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 nav a:hover {
   transform: scale(1.2);
