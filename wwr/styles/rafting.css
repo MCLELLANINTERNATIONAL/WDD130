@@ -33,7 +33,7 @@ header {
   flex-direction: column;
   color: #3515ec;
   display: flex;
-  justify-content: space between;
+  justify-content: space-between;
   align-items: center;
 }
 .logo-box {
@@ -65,7 +65,7 @@ header-nav a {
   color: var(--nav-hover-background-color);
   text-decoration: none; 
   text-align: left;
-  margin-left: 0 10px;
+  margin-left: 10px;
   display: inline;
   padding: 0;
   margin: 0 2px;
@@ -86,7 +86,7 @@ header-nav a:hover {
   margin-left: 0px;
   padding: 20px;
   text-align:center;
-  transform: translate(- 50%, -50%);
+  transform: translate(-50%, -50%);
   Background-color:rgba(244, 243, 239, 0.912);
   color:#130196;
   z-index: 1;
@@ -149,7 +149,7 @@ section {
 }
 
 .history img {
-  display: column;
+  display: flexi;
   max-width: 200px;
   width: 100px;
   height: auto; 
@@ -167,7 +167,7 @@ color:#099eed;
 }
 
 .wwr img {
-  display: column;
+  display: flexi;
   max-width: 200px;
   width: 200px;
   height: auto; 
@@ -182,7 +182,7 @@ footer {
 
 footer nav {
   display: flex;
-  justify-content: cente;
+  justify-content: center;
   margin-top: 10px;
 }
 
