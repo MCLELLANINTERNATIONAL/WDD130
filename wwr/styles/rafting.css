@@ -148,7 +148,6 @@ section {
 }
 
 .history img {
-  display: flexi;
   max-width: 200px;
   width: 100px;
   height: auto; 
@@ -166,7 +165,6 @@ color:#099eed;
 }
 
 .wwr img {
-  display: flexi;
   max-width: 200px;
   width: 200px;
   height: auto; 
