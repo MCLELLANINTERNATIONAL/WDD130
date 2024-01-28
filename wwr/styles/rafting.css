@@ -196,12 +196,11 @@ footer-nav a:hover {
   transform: scale(1.2);
 }
 
-/* Style social media icons */
 footer-nav img {
   display: inline;
   text-align: center;
   width: 15px;
   max-width: 25px;
-  height: 15px;
+  height: auto;
   text-decoration: none;
 }
