@@ -80,10 +80,10 @@ header-nav a:hover {
 }
 .hero h1 {
   position: absolute;
-  top: 8%;
-  left: 0%;
-  width: 95%;
-  margin-left: 0px;
+  top: 10%;
+  left: 1%;
+  width: 70%;
+  margin-left: 1px;
   padding: 20px;
   text-align:center;
   transform: translate(-50%, -50%);
