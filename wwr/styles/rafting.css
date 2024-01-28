@@ -198,7 +198,9 @@ nav a:hover {
 
 /* Style social media icons */
 footer nav img {
-  width: 20px;
+  display: inline;
+  width: 25px;
   height: auto;
+  ;
   text-decoration: none;
 }
