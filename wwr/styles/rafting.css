@@ -192,15 +192,17 @@ footer nav a {
   margin: 0 10px;
   transition: transform 0.3s ease-in-out;
 }
-nav a:hover {
+footer-nav a:hover {
   transform: scale(1.2);
 }
 
 /* Style social media icons */
-footer nav img {
+footer-nav img {
   display: inline;
-  width: 25px;
-  height: auto;
+  text-align: center;
+  width: 15px;
+  max-width: 25px;
+  height: 15px;
   ;
   text-decoration: none;
 }
