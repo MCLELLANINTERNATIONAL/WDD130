@@ -1,99 +1,126 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
 
-/* Define CSS variables for color scheme */
 :root {
-    --primary-color: #b98706;
-    --secondary-color: #0874ad;
-    --accent-color: #15f764;
-    --additional-accent-color: #184E77;
-  
-    --heading-font: 'Lobster', cursive;
-    --paragraph-font: 'Roboto', sans-serif;
+  --primary-color: #b98706;
+  --secondary-color: #066496;
+  --accent-color: #15f764;
+  --additional-accent-color: #184E77;
 
-    --nav-bg-color: #333; /* Corrected variable name */
-    --nav-link-color: #FFF;
-    --nav-hover-link-color: #bd8a08;
-    --nav-hover-background-color: #0077B6; 
-}
+  --heading-font: 'Lobster', cursive;
+  --paragraph-font: 'Roboto', sans-serif;
 
-body, h1, h2, p, ul {
-  margin: 1px;
-  padding: 3px;
-  color: var(--primary-color);
+  --nav-bg-color: #3515ec; 
+  --nav-link-color: #FFFFFF;
+  --nav-hover-link-color: #bd8a08;
+  --nav-hover-background-color: #0077B6; 
+} 
+
+h1, h2, p, ul {
   font-family: var(--heading-font);
+  color: var(--primary-color);
+  margin: 2px;
 }
 
 body {
-  max-width: 600px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
+  font-family: var(--paragraph-font);
+  max-width: 800px;
+  margin: 2px;
+}
+
+header {
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+  padding: 2px;
+  text-align: center;
 }
 
 p {
+  padding: 5px;
   color: var(--text-color);
   font-family: var(--paragraph-font);
 }
 
-/* Style the header section */
-header {
-  background-color: #333;
-  color: #FFF;
-  padding: 10px;
-  text-align: center;
-}
-
 .logo-box img {
   display: block;
-  margin: 0 auto;
+  margin: 2px auto;
 }
 
 nav {
+  font-size: 0.5em;
+  display: flex;
   margin-top: 10px;
 }
 
 nav a {
-  color: #FFF;
+  display: block;
+  color: var(--nav-link-color);
   text-decoration: none;
-  margin: 0 10px;
+  padding: 1em;
+  margin: 0 2px;
+  text-decoration: none;
+}
+
+.title {
+  margin-bottom: 0.4em;
+  color:#0874ad;
+}
+
+.hero {
+  position: relative;
+}
+.hero h1 {
+  position: absolute;
+  top: 8%;
+  left: 0%;
+  width: 95%;
+  margin-left: 0px;
+  padding: 20px;
+  text-align:center;
+  transform: translate(- 50%, -50%);
+  Background-color:rgba(244, 243, 239, 0.912);
+  color:#130196;
+  z-index: 1;
 }
 
 .hero img {
-  position: relative;
+  display: block;
+  overflow: hidden;
   width: 100%;
   height: auto;
 }
 
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #FFF;
-}
-
-/* Style the article section */
 .Purpose-Mission-Vision {
   position: absolute;
-  top: 50%;
-  left: 10%;
-  width: 40%;
-  background-color: rgba(255, 183, 3, 0.8); /* Adjust background color and opacity */
-  padding: 20px;
-  color: #FFF;
+  top: 72%;
+  left: 12.5%;
+  transform: translate(-10%, -50%);
+  width: 90%;
+  height: 41.5%;
+  text-align: left;
+  background-color: rgba(234, 242, 244, 0.912); 
+  padding: 15px;
+  color: var(--primary-color);
+  z-index: 2;
 }
 
 .Purpose-Mission-Vision img {
   float: right;
-  margin-left: 20px;
+  width: 40%;
+  margin-right: 0.5px;
 }
 
-/* Style the footer section */
+.Purpose-Mission-Vision p {
+  margin-bottom: 0.5px;
+}
+
 footer {
-  background-color: #333;
-  color: #FFF;
+  color: #184E77; /* Added a missing semicolon */
   text-align: center;
   padding: 10px;
+}
+
+footer nav {
+  display: flex;
 }
 
 footer nav a {
@@ -104,14 +131,6 @@ footer nav a {
 /* Style social media icons */
 footer nav img {
   width: 20px;
-  height: 20px;
-  text-decoration: none;
-}
-
-
-/* Additional styles for .hero img */
-.hero img {
-  display: block;
-  width: 100%; /* Set the width to 100% */
   height: auto;
+  text-decoration: none;
 }
