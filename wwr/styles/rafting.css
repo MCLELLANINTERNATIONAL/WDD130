@@ -15,10 +15,11 @@
   --nav-hover-background-color: #0077B6; 
 } 
 
-h1, h2, p, ul {
+body, h1, h2, p, ul, li {
   font-family: var(--heading-font);
   color: var(--primary-color);
-  margin: 2px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -28,13 +29,31 @@ body {
 }
 
 header {
-  background-color: var(--accent-color);
-  color: #FFFFFF;
-  padding: 2px;
-  text-align: center;
+  text-align: left;
+  color:#3515ec;
+  display: flex;
+  justify-content: space between;
+  align-items: center;
 }
 
-p {
+.logo-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+header-nav a {
+  color:var(--nav-hover-background-color);
+  text-decoration: none; 
+  text-align: left;
+  margin-left: 20px;
+}
+header-nav a:hover {
+  text-decoration: underline;
+}
+
+p {  
   padding: 5px;
   color: var(--text-color);
   font-family: var(--paragraph-font);
@@ -46,13 +65,13 @@ p {
   background-color: #FFFFFF;
 }
 
-nav {
+footer-nav {
   font-size: 0.5em;
   display: flex;
   margin-top: 10px;
 }
 
-nav a {
+footer-nav a {
   display: block;
   color: var(--nav-link-color);
   text-decoration: none;
@@ -138,7 +157,7 @@ nav a:hover {
 
 /* Style social media icons */
 footer nav img {
-  width: 25px;
+  width: 20px;
   height: auto;
   text-decoration: none;
 }
