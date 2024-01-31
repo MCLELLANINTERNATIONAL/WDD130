@@ -98,7 +98,7 @@ header-nav a:hover {
   height: auto;
 }
 
-.purpose-mission-vision {
+.hero article {
   position: absolute;
   top: 72%;
   left: 12.5%;
@@ -112,13 +112,13 @@ header-nav a:hover {
   z-index: 2;
 }
 
-.purpose-mission-vision img {
+.hero article img {
   float: right;
   width: 40%;
   margin-right: 0.5px;
 }
 
-.purpose-mission-vision p {
+.hero article p {
   margin-bottom: 0.5px;
 }
 
