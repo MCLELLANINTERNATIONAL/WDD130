@@ -49,8 +49,7 @@ ul.box {
     border: 3px solid rgba(38, 185, 230, 0.916);
     padding: 4px;
     background-color: #a9a3f4;
-    color: #08e4f8;
-    text-align: centre;
+    color: #FFFFFF;
     list-style: none;    
 }
 
@@ -67,12 +66,11 @@ aside {
 
 .aside-h2 {
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
     color: white;
-    box-shadow: 0 0 30px #111;
 	z-index: 1;
     text-align: center;
 }
