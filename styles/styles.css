@@ -34,9 +34,9 @@ main img {
     width: 160px;
     height: auto;
     margin: 0 0 10px 9px;
-    border: 1px solid #3f29eb;
+    border: 3px solid #6e60d6;
     padding: 5px;
-    background-color: #fff;
+    background-color: #FFFFFF;
     float: right;
 }
 
@@ -46,9 +46,9 @@ ul.box {
     height: auto;
     margin: 200px;
     margin-top: 2.35em; 
-    border: 3px solid rgba(38, 185, 230, 0.916);
+    border: 5px solid rgba(38, 185, 230, 0.916);
     padding: 4px;
-    background-color: #a9a3f4;
+    background-color: #bab6f4;
     color: #FFFFFF;
     list-style: none;    
 }
@@ -56,12 +56,13 @@ ul.box {
 aside {
     position: relative; 
     max-width: 500px;
-    width: 30em;
+    width: 35em;
     height: auto;
-    border: 4px solid rgba(198, 194, 243, 0.916);
+    border: 8px solid rgba(9, 206, 246, 0.916);
     padding: 5px;
-    margin: 2px;
+    margin: 8px;
     text-align: center; 
+    box-sizing: border-box;
 }
 
 .aside-h2 {
@@ -75,12 +76,16 @@ aside {
     text-align: center;
 }
 
+.aside-p {
+  color: #FFFFFF;  
+}
+
 aside img {
     width: 380px;
     height: auto;
     margin: 0;
-    border: 1px solid #2007e3;;
-    padding: 3px;
+    border: 5px solid #12b3e9;;
+    padding: 5px;
     background-color: #fff;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -101,7 +106,7 @@ footer {
 
 .box {
     margin: 5em;
-    border: 0.1px solid rgba(203, 200, 228, 0.916);
+    border: 0.3px solid rgba(8, 168, 226, 0.916);
     padding: 3rem;
     background-color:  #7e76d9;
     color: #08e4f8;  
