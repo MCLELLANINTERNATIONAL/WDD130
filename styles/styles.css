@@ -10,7 +10,7 @@ body {
 
 .title {
     margin-bottom: 0.4em;
-    color: #8968f6
+    color: #8968f6;
 }
 
 .intro {
@@ -65,7 +65,7 @@ aside {
     text-align: center; 
 }
 
-.aside h2 {
+.aside-h2 {
     position: absolute;
     top: 20%;
     left: 50%;
