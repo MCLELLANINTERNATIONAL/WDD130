@@ -26,8 +26,8 @@ header, .grid, footer {
 
 .grid {
     display: grid;
-    align-items: center;
-    grid-template-columns: 25rem 30rem; 
+   /* align-items: center;*/
+   /* grid-template-columns: 20rem 30rem; */
     gap: 0.3rem;
 }
 
@@ -78,7 +78,7 @@ main img {
 ul.box {
     grid-row: 3/4; 
     display: block;
-    width: 30rem;
+  /*  width: 30rem; */
     height: 8rem;
     margin: 0.5rem;
     margin-top: 2.5rem; 
