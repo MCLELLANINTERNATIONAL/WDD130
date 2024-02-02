@@ -95,9 +95,9 @@ aside {
     position: relative;
     width: 20rem;
     height: 30rem;
-   border: 1px solid #fff;
+    border: 1px solid #fff;
     padding: 5% 0;
-    margin: 1px rgba(9, 206, 246, 0.916);;
+    margin: 1px rgba(9, 206, 246, 0.916);
 }
 
 aside h2 {
