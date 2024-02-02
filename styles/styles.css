@@ -134,10 +134,10 @@ p {
 }
 
 footer {
-    margin-top: 0.1px;
-    border-top: 0.5px solid #1e7285;
-    margin: 5em;
-    text-align: center; 
+    margin-top: 0;
+    border-top: 0.1px solid #1e7285;
+    margin: em;
+    text-align: center;  
 }
 
 /* Class Selectors */
