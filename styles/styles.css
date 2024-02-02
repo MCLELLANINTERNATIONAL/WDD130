@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -94,10 +103,10 @@ aside {
     grid-row: 1/2;
     position: relative;
     width: 20rem;
-    height: auto;
-    border: 2px solid #fff;
+    height: 32rem;
+   /• border: 1px solid #fff; */
     padding: 5% 0;
-    margin: 2px solid rgba(9, 206, 246, 0.916);;
+    margin: 1px solid rgba(9, 206, 246, 0.916);;
 }
 
 aside h2 {
@@ -107,7 +116,7 @@ aside h2 {
     transform: translate(-50%, -50%);
     width: 50%;
     color: white;
-	z-index: 1;
+    z-index: 1;
     text-align: center;
 }
 
@@ -118,14 +127,14 @@ aside p {
 }
 
 aside img {
-    width: 95%;
+    width: 100%;
     height: auto;
     margin: 0;
-    border: 2px solid #12b3e9;;
+    border: 5px solid #12b3e9;;
     padding: 3px;
     background-color: #fff;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
     align-items: center;
 }
 
@@ -137,7 +146,7 @@ footer {
     margin-top: 0;
     border-top: 0.1px solid #1e7285;
     margin: em;
-    text-align: center;  
+    text-align: center; 
 }
 
 /* Class Selectors */
