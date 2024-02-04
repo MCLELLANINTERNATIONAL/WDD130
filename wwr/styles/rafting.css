@@ -178,6 +178,8 @@ header-nav a:hover {
 
 .history img {
  /* max-width: 100px; */
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
   width: 200px;
   height: auto; 
