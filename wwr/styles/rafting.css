@@ -174,17 +174,17 @@ header-nav a:hover {
   border-radius: 8px;
   text-align: left;
   margin-bottom: 10px;
-}
+} 
 
 .history img {
- /* max-width: 100px; */
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: auto; 
-  /* margin-bottom: 10px; */
-}
+  /* max-width: 100px; */
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 200px;
+   height: auto; 
+   /* margin-bottom: 10px; */
+ } 
 
 .wwr {
   display: inline-flexbox;
