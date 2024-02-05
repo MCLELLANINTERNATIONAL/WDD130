@@ -248,27 +248,28 @@ header-nav a:hover {
   margin-bottom: 2px; 
 }
 
+
 footer {
   display:inline-flex;
   justify-content: space-evenly;
   background-color: #d7733d;;
   color: #fff; 
-  font-size: 1.2rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 1000;
   text-align: right;
   padding: 20px;
   gap: 5rem;
 }
 
 footer p {
-  display: right;
-  margin-left: 220px;
+  display: inline-flex;
+  margin-left: 17rem;
 }
 
 footer nav {
   display: inline-flex;
   justify-content: right;
-  /* margin-top: 10px; */
+  /* margin-top: 1px; */
   gap: 10px;
 }
 
