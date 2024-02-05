@@ -180,16 +180,16 @@ main {
 .history h2 {
   text-align: center;
   justify-content: center;
-  grid-column: 2 / 3;
-  grid-row: 1 / 2;
+  grid-column: 2/3;
+  grid-row: 1/2;
   font-size: 2.8rem;
   font-weight: 800;
   color: #099eed;
 }
 
-.history p1 {
+.history .p1 {
     justify-content: space-around;
-    grid-row: 2 / 2;
+    grid-row: 2/2;
     background-color: #ffffff; 
     text-align: left;
   }
@@ -201,7 +201,7 @@ main {
      height: auto; 
    } 
 
-.history p2{
+.history .p2 {
   justify-content: space-around;
   grid-row: 2/2;
   margin: 2px auto;
