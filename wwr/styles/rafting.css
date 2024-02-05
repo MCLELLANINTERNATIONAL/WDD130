@@ -170,12 +170,7 @@ main {
   margin-bottom: 0.5px;
 }
 
-.history {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-top: 3px;
-}
-
-.history grid {
+.history-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
   grid-template-rows: auto 1fr;
@@ -193,8 +188,6 @@ main {
 }
 
 .history p1 {
-    /* max-width: 95%; */
-    /* display: inline-flex; */
     justify-content: space-around;
     grid-row: 2 / 2;
     background-color: #ffffff; 
@@ -202,20 +195,17 @@ main {
   }
 
   .history img {
-    /* max-width: 100px; */
-    /* display: inline-flex; */
      justify-content: space-around;
      align-items: center;
      grid-row: 2 / 2;
      height: auto; 
-     /* margin-bottom: 10px; */
    } 
 
 .history p2{
-  /* max-width: 95%; */
-  /* display: inline-flex; */
   justify-content: space-around;
   grid-row: 2 / 2;
+  margin: 2px auto;
+  padding: 0;
   background-color: #ffffff; 
   text-align: left;
 } 
