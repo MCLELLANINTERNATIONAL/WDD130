@@ -79,7 +79,7 @@ p {
 }
 
 .header-nav {
-  grid-column: 4 / 5;
+  grid-column: 4 / 4;
   font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
