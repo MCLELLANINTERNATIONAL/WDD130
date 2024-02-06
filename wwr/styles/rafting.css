@@ -185,18 +185,19 @@ main {
 }
 
 .history .p1 {
-    justify-content: space-around;
-    grid-row: 2/2;
-    background-color: #ffffff; 
-    text-align: left;
-  }
+  justify-content: space-around;
+  grid-row: 2/2;
+  background-color: #ffffff; 
+  text-align: left;
+}
 
-  .history img {
-     justify-content: space-around;
-     align-items: center;
-     grid-row: 2/2;
-     height: auto; 
-   } 
+.history img {
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  grid-row: 2/2;
+  height: auto; 
+} 
 
 .history .p2 {
   justify-content: space-around;
