@@ -193,7 +193,8 @@ main {
 
 .history img {
   justify-content: space-around;
-  align-items: center;
+  align-self: center;
+  /* align-items: center; */
   width: 98%;
   grid-row: 2/2;
   height: auto; 
