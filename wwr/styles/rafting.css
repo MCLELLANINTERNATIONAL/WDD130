@@ -245,26 +245,27 @@ footer {
   background-color: #d7733d;;
   color: #fff; 
   font-size: 1rem;
-  font-weight: 1000;
+  font-weight: 2000;
   text-align: right;
-  padding: 20px;
+  padding: 30px;
   gap: 5rem;
 }
 
 footer p {
   display: inline-flex;
-  margin-left: 16rem;
+  margin-left: 5rem;
 }
 
 footer nav {
   display: inline-flex;
   justify-content: right;
-  gap: 10px;
+  gap: 15px;
 }
 
 footer nav a {
   align-items: normal;
   display: inline-block;
+  width: 50%;
   text-decoration: none;
   margin: 0 2px;
   transition: transform 0.3s ease-in-out;
