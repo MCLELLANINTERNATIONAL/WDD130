@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <title>HTML and CSS Quiz</title>
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+
+    <form action="#" method="post" id="quizForm">
+        <!-- Question 1: Fill in the blank -->
+        <label for="q1">1. What does HTML stand for?</label>
+        <input type="text" id="q1" name="q1" required>
+
+        <!-- Question 2: Short answer -->
+        <label for="q2">2. Briefly explain the purpose of CSS.</label>
+        <textarea id="q2" name="q2" rows="4" required></textarea>
+
+        <!-- Question 3: Dropdown -->
+        <label for="q3">3. What is the primary purpose of the &lt;meta&gt; tag in HTML?</label>
+        <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="describes_metadata">Describes metadata about the HTML document</option>
+            <option value="defines_styles">Defines styles for the HTML document</option>
+            <option value="declares_variables">Declares variables in JavaScript</option>
+        </select>
+
+        <!-- Question 4: Integer answer -->
+        <label for="q4">4. How many levels of heading tags are there in HTML?</label>
+        <input type="number" id="q4" name="q4" required>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
