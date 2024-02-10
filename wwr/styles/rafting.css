@@ -88,6 +88,28 @@ p {
   text-align: center;
   /* margin-left: 10px; */
   display: inline-flex;
+  border:#049ef1;
+  padding: 4px;
+  margin: 0 0;
+  color: #0c7bb6;
+}
+
+nav li {
+  display: inline;
+  justify-self: auto;
+  list-style: none;
+  background-color: #fff;
+  border: 3px solid #0077B6;
+  color: #099eed;
+  margin-right: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* .header-nav a {
+  text-decoration: none; 
+  text-align: center;
+  display: inline-flex;
   border:#0077B6;
   padding: 4px;
   margin: 0 0;
@@ -102,7 +124,7 @@ nav li {
   margin-right: 0;
   padding-left: 2px;
   padding-right: 2px;
-}
+} */
 
 header-nav a:hover {
   text-decoration: none;
