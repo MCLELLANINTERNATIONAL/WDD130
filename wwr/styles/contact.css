@@ -143,8 +143,12 @@
     font-size: 3rem;
     /* transform: translate(-1%, -50%);
     Background-color:rgba(244, 243, 239, 0.912); */
-    color:#2b0196;
+    color: #099eed;
     /* z-index: 1; */
+  }
+
+  .company-info p {
+    color: black;
   }
   
   .company-info iframe {
@@ -198,7 +202,8 @@
   .employee-profiles figure {
     text-align: center;
     margin: 10px 0;
-    grid-row: 2/2
+    grid-row: 2/2;
+    color: #d7733d;;
   }
   
   figure img {
