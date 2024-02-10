@@ -149,7 +149,7 @@
   }
 
   .company-info p {
-    font-display: black;
+    color: black;
     margin-top: 1px;
   }
   
@@ -312,7 +312,7 @@
     background-color: #d7733d;;
     color: #fff; 
     font-size: 1rem;
-    font-weight: 2000;
+    font-weight: 1000;
     text-align: right;
     padding: 30px;
     gap: 5rem;
