@@ -15,7 +15,7 @@
   
   body, h1, h2, p, ul, li {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    /*c olor: var(--primary-color); */
     margin: 0;
     padding: 0;
   }
@@ -117,7 +117,7 @@
   .employee-profiles,
   .contact-form {
     max-width: 840px;
-    margin: 20px auto;
+    margin: 10px auto;
     padding: 20px;
     border: 2px solid #0077B6;
     border-radius: 8px;
@@ -132,7 +132,7 @@
   
   .company-info h1 {
     /* position: absolute; */
-    top: 10%;
+    top: 5%;
     left: 0;
     right: 0;
     margin: auto;
@@ -143,7 +143,7 @@
     font-size: 3rem;
     /* transform: translate(-1%, -50%);
     Background-color:rgba(244, 243, 239, 0.912); */
-    color:#130196;
+    color:#2b0196;
     /* z-index: 1; */
   }
   
