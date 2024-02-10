@@ -47,10 +47,10 @@ header {
   padding: 20px;
 }
 
-nav {
+.nav {
   display: inline-flex;
   justify-content: space-between;
-  gap: 2px;
+  gap: 0px;
 }
 
 .logo-box {
@@ -86,10 +86,13 @@ p {
 .header-nav a {
   text-decoration: none; 
   text-align: center;
-  /* margin-left: 10px; */
+  font-size: 1rem;
   display: inline-flex;
   border:#049ef1;
-  padding: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin: 0 0;
   color: #0c7bb6;
 }
@@ -105,26 +108,6 @@ nav li {
   padding-left: 2px;
   padding-right: 2px;
 }
-
-/* .header-nav a {
-  text-decoration: none; 
-  text-align: center;
-  display: inline-flex;
-  border:#0077B6;
-  padding: 4px;
-  margin: 0 0;
-}
-
-nav li {
-  display: inline;
-  justify-self: auto;
-  list-style: none;
-  background-color: #fff;
-  border: 3px solid #0077B6;
-  margin-right: 0;
-  padding-left: 2px;
-  padding-right: 2px;
-} */
 
 header-nav a:hover {
   text-decoration: none;
