@@ -39,7 +39,6 @@ header, .grid, main, footer {
 }
 
 header {
-  /* display: inline-flex; */
   justify-content: space-evenly;
   background-color: #d7733d;
   color: #fff;
@@ -104,9 +103,6 @@ nav li {
   background-color: #fff;
   border: 3px solid #0077B6;
   color: #099eed;
-  margin-right: 0;
-  padding-left: 2px;
-  padding-right: 2px;
 }
 
 header-nav a:hover {
@@ -155,19 +151,26 @@ main {
   height: 41.5%;
   text-align: left;
   background-color: rgba(234, 242, 244, 0.912); 
-  padding: 15px;
+  padding: 16px;
   color: var(--primary-color);
   z-index: 2;
 }
 
+.hero h2 {
+  color:#099eed;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
 .hero article img {
   float: right;
-  width: 40%;
+  width: 38%;
   margin-right: 0.5px;
+  margin-bottom: 5px;
 }
 
 .hero article p {
-  margin-bottom: 0.5px;
+  margin-bottom: 1px;
 }
 
 .history-grid {
