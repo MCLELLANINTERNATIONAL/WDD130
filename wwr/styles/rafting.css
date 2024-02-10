@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap');
-
 :root {
   --primary-color: #ca5719;;
   --secondary-color: #066496;
@@ -281,8 +279,7 @@ footer nav img {
   border: 1px solid#ccc;
   transition: transform 0.3s ease-in-out;
   text-align: left;
-  width: 15px;
-  max-width: 50px;
+  width: 30px;
   height: auto;
   text-decoration: none;
 }
