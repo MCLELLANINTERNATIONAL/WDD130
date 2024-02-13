@@ -230,6 +230,10 @@ textarea {
     margin-top: 10px;
 }
 
+contact-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
 .contact-form button {
     width: 36%;
     text-align: center;
