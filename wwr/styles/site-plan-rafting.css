@@ -14,7 +14,7 @@
     --paragraph-font: 'Roboto', sans-serif;
 
     /* Navigation Styles */
-    --nav-bg-color: #333;
+    --nav-background-color: #333; /* Updated to match required name */
     --nav-link-color: #FFF;
     --nav-hover-link-color: #bd8a08;
     --nav-hover-background-color: #0077B6;
@@ -27,24 +27,28 @@ body {
     padding: 20px;
 }
 
+/* Heading Styles */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+/* Header Style */
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
 
+/* Paragraph Style */
 p {
     font-family: var(--paragraph-font);
     color: var(--secondary-color);
     padding: 25px;
 }
 
+/* Navigation Bar Style */
 nav {
-    background-color: var(--nav-bg-color);
+    background-color: var(--nav-background-color); /* Updated to match required name */
     font-size: 1.2rem;
     display: flex;
 }
