@@ -223,10 +223,17 @@ textarea {
     font-size: 1rem;
 }
 
+.contact-form .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .contact-form button {
-    width: 35%;
+    width: 36%;
     text-align: center;
-    display: inline;
+    display: right;
     font-size: 1.2rem;
     background-color: #1946cd;
     color: #fff;
