@@ -233,7 +233,7 @@ textarea {
 .contact-form button {
     width: 36%;
     text-align: center;
-    display: right;
+    display: inline;
     font-size: 1.2rem;
     background-color: #1946cd;
     color: #fff;
