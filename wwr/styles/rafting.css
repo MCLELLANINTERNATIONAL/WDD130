@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
+@importurl("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
 
 :root {
     --primary-color: #ca5719;;
@@ -216,7 +216,6 @@ section.introduction img {
     margin-bottom: 1px;
   }
 
-
   header.top-header {
     justify-content: space-evenly;
     background-color: #d7733d;
@@ -229,31 +228,31 @@ header.featured-trips h1{
 
 }
 
-  header h1 {
+header h1 {
     text-align: center;
     padding: 20px;
-  }
+}
   
-  .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-  }
+}
   
-  .grid-item {
+.grid-item {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-  }
+}
   
-  .grid-item img {
+.grid-item img {
     width: 100%;
     height: auto;
     display: block;
-  }
+}
   
-  button {
+button {
     background-color: #004d40;
     color: white;
     padding: 10px 20px;
@@ -261,123 +260,115 @@ header.featured-trips h1{
     cursor: pointer;
     width: 100%;
     font-size: 1em;
-  }
+}
   
-  button:hover {
+button:hover {
     background-color: #003d33;
-  }
+}
 
-
-
-
-
-
-
-
-  section {
-    max-width: 1200px; /* or 100% based on the container's max width */
+section {
+    max-width: 840px; /* or 100% based on the container's max width */
     margin: auto;
     padding: 20px;
+}
 
-    
-  }
-
-  section article {
+section article {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
     padding: 20px;
-  }
+}
   
-  .featured-trips header {
+.featured-trips header {
     text-align: center;
     margin-bottom: 30px;
-  }
+}
   
-  .featured-trips h1 {
+.featured-trips h1 {
     font-size: 2.5em;
     color: #0056b3; /* or another color that suits the design */
   }
   
-  .featured-trips article {
+.featured-trips article {
     margin-bottom: 40px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9; /* a light background to distinguish the trips */
-  }
+}
   
-  .featured-trips h3 {
+.featured-trips h3 {
     font-size: 1.8em;
     color: #333;
     margin-top: 0;
-  }
+}
   
-  .featured-trips figure {
+.featured-trips figure {
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
-  }
+    align-items: center; 
+}
   
-  .featured-trips img {
+.featured-trips img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
-  }
+}
   
-  .featured-trips figcaption {
+.featured-trips figcaption {
     font-size: 1.2em;
     color: #888;
-  }
+}
   
-  .featured-trips p {
+.featured-trips p {
     text-align: justify;
     line-height: 1.6;
-    footer {
-        justify-content: space-evenly;
-        background-color: #d7733d;;
-        color: #fff; 
-        font-size: 1rem;
-        font-weight: 1000;
-        text-align: right;
-        padding: 30px;
-        gap: 5rem;
-    }
+}
+
+footer {
+    justify-content: space-evenly;
+    background-color: #d7733d;;
+    color: #fff; 
+    font-size: 1rem;
+    font-weight: 1000;
+    text-align: right;
+    padding: 30px;
+    gap: 5rem;
+}
       
-    footer p {
-        display: inline-flex;
-        margin-right: 3rem;
-    }
+footer p {
+    display: inline-flex;
+    margin-right: 3rem;
+}
       
-    footer nav {
-        display: inline-flex;
-        justify-content: right;
-        gap: 15px;
-    }
+footer nav {
+    display: inline-flex;
+    justify-content: right;
+    gap: 15px;
+}
       
-    footer nav a {
-        align-items: normal;
-        display: inline-block;
-        width: 50%;
-        text-decoration: none;
-        margin: 0 2px;
-        transition: transform 0.3s ease-in-out;
-    }
+footer nav a {
+    align-items: normal;
+    display: inline-block;
+    width: 50%;
+     text-decoration: none;
+     margin: 0 2px;
+     transition: transform 0.3s ease-in-out;
+}
       
-    footer nav a:hover {
-        transform: scale(1.1);
-    }
+footer nav a:hover {
+     transform: scale(1.1);
+}
       
-    footer nav img {
-        display: inline-flex;
-        border-radius: 50%;
-        border: 1px solid#ccc;
-        transition: transform 0.3s ease-in-out;
-        text-align: left;
-        width: 30px;
-        max-width: 50px;
-        height: auto;
-        text-decoration: none;
-    }
+footer nav img {
+     display: inline-flex;
+     border-radius: 50%;
+     border: 1px solid#ccc;
+     transition: transform 0.3s ease-in-out;
+     text-align: left;
+     width: 30px;
+     max-width: 50px;
+     height: auto;
+     text-decoration: none;
+}
