@@ -17,7 +17,7 @@
 
 body, h1, h2, p, ul, li {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   margin: 0;
   padding: 0;
 }
@@ -166,13 +166,14 @@ main {
 
 .hero article img {
   float: right;
-  width: 38%;
+  width: 20%;
   margin-right: 0.5px;
   margin-bottom: 5px;
 }
 
 .hero article p {
   margin-bottom: 1px;
+  color: black;
 }
 
 .welcome-grid {
@@ -182,7 +183,7 @@ main {
   gap: 1rem;
 }
 
-.welcome h2 {
+.welcome-grid h2 {
   text-align: center;
   justify-content: center;
   grid-column: 2/3;
@@ -192,14 +193,14 @@ main {
   color: #099eed;
 }
 
-.welcome .p1 {
+.welcome-grid .p1 {
   justify-content: space-around;
   grid-row: 2/2;
   background-color: #ffffff; 
   text-align: left;
 }
 
-.welcome img {
+.welcome-grid img {
   justify-content: space-around;
   align-self: center;
   /* align-items: center; */
@@ -208,7 +209,7 @@ main {
   height: auto; 
 } 
 
-.welcome .p2 {
+.welcome-grid .p2 {
   justify-content: space-around;
   grid-row: 2/2;
   margin: 2px auto;
