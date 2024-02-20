@@ -167,10 +167,10 @@ header-nav a:hover {
     /* z-index: 1; */
 }
   
-.hero .content-box h1 {
-    font-size: 2rem !important;
+.hero .content-box h2 {
+    font-size: 2rem;
     margin-bottom: 0.5px;
-    color:#099eed !important;
+    color: #0882c4;
   }
   
 .hero .content-box p {

@@ -147,19 +147,19 @@ main {
 .hero article {
   position: absolute;
   top: 72%;
-  left: 12.5%;
+  right: 8.5%;
   transform: translate(-10%, -50%);
-  width: 90%;
-  height: 41.5%;
+  width: 60%;
+  height: 34%;
   text-align: left;
   background-color: rgba(234, 242, 244, 0.912); 
-  padding: 16px;
+  padding: 14px;
   color: var(--primary-color);
   z-index: 2;
 }
 
 .hero h2 {
-  color:#099eed;
+  color:#078fd8;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
@@ -198,6 +198,7 @@ main {
   grid-row: 2/2;
   background-color: #ffffff; 
   text-align: left;
+  color: #d7733d;;
 }
 
 .welcome-grid img {
@@ -215,11 +216,11 @@ main {
   margin: 2px auto;
   padding: 0;
   background-color: #ffffff; 
+  color: #d7733d;;
   text-align: left;
 } 
 
-.footer {
-  /* display:inline-flex; */
+footer {
   justify-content: space-evenly;
   background-color: #d7733d;;
   color: #fff; 
@@ -261,6 +262,7 @@ footer nav img {
   transition: transform 0.3s ease-in-out;
   text-align: left;
   width: 30px;
+  max-width: 50px;
   height: auto;
   text-decoration: none;
 }

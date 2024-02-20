@@ -154,12 +154,12 @@ main {
   text-align: left;
   background-color: rgba(234, 242, 244, 0.912); 
   padding: 16px;
-  color: var(--primary-color);
+  color: black;
   z-index: 2;
 }
 
 .hero h2 {
-  color:#099eed;
+  color:#0882c4;
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
