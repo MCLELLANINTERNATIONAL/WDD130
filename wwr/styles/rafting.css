@@ -155,13 +155,13 @@ header-nav a:hover {
   
 .hero h2 {
     position: absolute;
-    bottom: 10%;
-    left: 3%;
+    bottom: 5%;
+    left: 6.7%;
     right: 0;
     margin: auto;
-    width: 91%;
+    width: 80%;
     margin-left: 1px;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
     font-size: 2rem;
     transform: translate(-1%, -50%);
@@ -172,7 +172,7 @@ header-nav a:hover {
   }
   
 .hero article p {
-    position: relative;
+    font-size: 1.2rem;
     margin-bottom: 1px;
 }
 
