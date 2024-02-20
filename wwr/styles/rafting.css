@@ -152,28 +152,38 @@ header-nav a:hover {
     color: var(--primary-color);
     z-index: 2;
   }
-  
-.hero h2 {
+
+.hero .content-box {
     position: absolute;
-    bottom: 5%;
-    left: 6.7%;
+    text-align: center;
+    bottom: 0.5px;
+    left: 5%;
     right: 0;
     margin: auto;
-    width: 80%;
-    margin-left: 1px;
+    width: 60%;
     padding: 35px;
-    text-align: center;
-    font-size: 2rem;
     transform: translate(-1%, -50%);
-    margin-bottom: 0.5rem;
-    Background-color:rgba(244, 243, 239, 0.912);
-    color:#099eed;
-    z-index: 1;
+    Background-color: rgba(244, 243, 239, 0.912);
+    /* z-index: 1; */
+}
+  
+.hero .content-box h1 {
+    font-size: 2rem !important;
+    margin-bottom: 0.5px;
+    color:#099eed !important;
   }
   
-.hero article p {
+.hero .content-box p {
     font-size: 1.2rem;
+    font-weight: 600;
     margin-bottom: 1px;
+    color: black;
+}
+
+.hero .content-box a {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color:#130196;
 }
 
  /* Targeting articles in the section with 'Featured Trips' header */
@@ -232,6 +242,21 @@ header.top-header {
 
 header.featured-trips h1{
     text-align: center;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    border: 1px solid #ccc; 
+    text-align: left;
+    padding: 8px; 
+}
+
+th {
+    background-color: #f2f2f2; 
 }
 
 header h1 {
