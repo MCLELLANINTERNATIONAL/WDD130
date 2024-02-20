@@ -1,4 +1,4 @@
-@importurl("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap");
 
 :root {
     --primary-color: #ca5719;;
@@ -15,7 +15,7 @@
     --nav-hover-background-color: #0077B6; 
 } 
   
-body, h1, h2, p, ul, li {
+body, h1, h2, h3, h4, p, ul, li {
     font-family: var(--heading-font);
     /* color: var(--primary-color); */
     margin: 0;
@@ -109,52 +109,6 @@ nav li {
 header-nav a:hover {
     text-decoration: none;
 }
- /* Targeting articles in the section with 'Featured Trips' header */
-section article {
-    /* Add any necessary styling for the article here */
-    font-weight: 200;
-    font-size: 1rem;
-}
-
-/* Styling for images within articles under 'Featured Trips' */
-section  article figure  {
-    float: left;
-  /*  width: 33%; */    
-    margin-right: 1rem; /* Add space between image and text */
-}
-
-section  article figure img {
-    width: 200px; /* Make the image fill the figure */
-    height: auto; /* Prevent image distortion */
-   /* margin-bottom: .2rem;*/ /* Add space below the image */
-
-}
-
-/* Styling for captions under images */
-section article figure figcaption {
-    clear: left; /* Ensures the caption goes directly under the image */
-    text-align: center;
-    font-style: italic;
-    font-size: 0.9em; /* Smaller font size for caption */
-    margin-top: 5px; /* Space above the caption */
-}
-
-section.introduction h1 {
-
-        font-size: 2.5rem;
-        font-weight: 800;
-        color: #099eed;
-        text-align: center;
-    
-}
-
-section.introduction img {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
-    /* only show the top 200 px of image */
-    clip-path: inset(0 0 80% 0);
-}
 
 .hero {
     position: relative;
@@ -165,10 +119,10 @@ section.introduction img {
   .hero h1 {
     position: absolute;
     top: 10%;
-    left: 0;
+    left: 3%;
     right: 0;
     margin: auto;
-    width: 98%;
+    width: 92%;
     margin-left: 1px;
     padding: 15px;
     text-align: center;
@@ -200,47 +154,75 @@ section.introduction img {
   }
   
 .hero h2 {
-    color:#099eed;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+    right: 0;
+    margin: auto;
+    width: 91%;
+    margin-left: 1px;
+    padding: 20px;
+    text-align: center;
     font-size: 2rem;
+    transform: translate(-1%, -50%);
     margin-bottom: 0.5rem;
+    Background-color:rgba(244, 243, 239, 0.912);
+    color:#099eed;
+    z-index: 1;
   }
   
 .hero article p {
-    margin-bottom: 1px;
-  }
-
-.hero {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-.hero article {
-    position: absolute;
-    top: 72%;
-    left: 12.5%;
-    transform: translate(-10%, -50%);
-    width: 90%;
-    height: 41.5%;
-    text-align: left;
-    background-color: rgba(234, 242, 244, 0.912); 
-    padding: 16px;
-    color: var(--primary-color);
-    z-index: 2;
-  }
-  
-.hero h2 {
-    display:inline-flex;
-    color: #099eed;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-    
-  .hero article p {
     margin-bottom: 1px;
-  }
+}
 
-  header.top-header {
+ /* Targeting articles in the section with 'Featured Trips' header */
+section article {
+    /* Add any necessary styling for the article here */
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+/* Styling for images within articles under 'Featured Trips' */
+section  article figure  {
+    float: left;
+  /*  width: 33%; */    
+    margin-right: 1rem; /* Add space between image and text */
+}
+
+section  article figure img {
+    width: 200px; /* Make the image fill the figure */
+    height: auto; /* Prevent image distortion */
+   /* margin-bottom: .2rem;*/ /* Add space below the image */
+
+}
+
+/* Styling for captions under images */
+section article figure figcaption {
+    clear: left; /* Ensures the caption goes directly under the image */
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em; /* Smaller font size for caption */
+    margin-top: 5px; /* Space above the caption */
+}
+
+section.introduction h1 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #099eed;
+        text-align: center;   
+}
+
+section.introduction img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    /* only show the top 200 px of image */
+    clip-path: inset(0 0 80% 0);
+}
+
+
+header.top-header {
     justify-content: space-evenly;
     background-color: #d7733d;
     color: #fff; 
