@@ -199,19 +199,43 @@ section.introduction img {
     z-index: 2;
   }
   
-  .hero h2 {
+.hero h2 {
     color:#099eed;
     font-size: 2rem;
     margin-bottom: 0.5rem;
   }
   
-  .hero article img {
-    float: right;
-    width: 38%;
-    margin-right: 0.5px;
-    margin-bottom: 5px;
+.hero article p {
+    margin-bottom: 1px;
+  }
+
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.hero article {
+    position: absolute;
+    top: 72%;
+    left: 12.5%;
+    transform: translate(-10%, -50%);
+    width: 90%;
+    height: 41.5%;
+    text-align: left;
+    background-color: rgba(234, 242, 244, 0.912); 
+    padding: 16px;
+    color: var(--primary-color);
+    z-index: 2;
   }
   
+.hero h2 {
+    display:inline-flex;
+    color: #099eed;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+    
   .hero article p {
     margin-bottom: 1px;
   }
@@ -225,7 +249,7 @@ section.introduction img {
 }
 
 header.featured-trips h1{
-
+    text-align: center;
 }
 
 header h1 {
@@ -324,6 +348,7 @@ section article {
 .featured-trips p {
     text-align: justify;
     line-height: 1.6;
+    color: #d7733d;
 }
 
 footer {
