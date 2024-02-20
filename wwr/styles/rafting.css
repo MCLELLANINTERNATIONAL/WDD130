@@ -186,21 +186,33 @@ header-nav a:hover {
     color:#130196;
 }
 
+section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color:#099eed 
+}
+
+.trip-description h3 {
+    text-align: center;
+    color:#099eed; 
+    font-size: 2rem;
+}
+
  /* Targeting articles in the section with 'Featured Trips' header */
-section article {
+.trip-description article {
     /* Add any necessary styling for the article here */
     font-weight: 200;
     font-size: 1rem;
 }
 
 /* Styling for images within articles under 'Featured Trips' */
-section  article figure  {
+.trip-description article figure  {
     float: left;
   /*  width: 33%; */    
     margin-right: 1rem; /* Add space between image and text */
 }
 
-section  article figure img {
+.trip-description article figure img {
     width: 200px; /* Make the image fill the figure */
     height: auto; /* Prevent image distortion */
    /* margin-bottom: .2rem;*/ /* Add space below the image */
@@ -208,7 +220,7 @@ section  article figure img {
 }
 
 /* Styling for captions under images */
-section article figure figcaption {
+.trip-description article figure figcaption {
     clear: left; /* Ensures the caption goes directly under the image */
     text-align: center;
     font-style: italic;
@@ -231,7 +243,6 @@ section.introduction img {
     clip-path: inset(0 0 80% 0);
 }
 
-
 header.top-header {
     justify-content: space-evenly;
     background-color: #d7733d;
@@ -242,6 +253,11 @@ header.top-header {
 
 header.featured-trips h1{
     text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
 }
 
 table {
@@ -257,11 +273,6 @@ th, td {
 
 th {
     background-color: #f2f2f2; 
-}
-
-header h1 {
-    text-align: center;
-    padding: 20px;
 }
   
 .grid-container {
@@ -331,7 +342,7 @@ section article {
   
 .featured-trips h3 {
     font-size: 1.8em;
-    color: #333;
+    color: #d7733d;
     margin-top: 0;
 }
   
@@ -355,7 +366,36 @@ section article {
 .featured-trips p {
     text-align: justify;
     line-height: 1.6;
-    color: #d7733d;
+}
+
+.trip-options {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 0.2rem;
+    max-width: 840px;
+  }
+  
+.trip-options h2 {
+    text-align: center;
+    justify-content: center;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    font-size: 2.8rem;
+    font-weight: 800;
+    color:#099eed 
+}
+  
+.trip-options figure {
+    margin: 0;
+    text-align: center;
+    grid-row: 2/2;
+}
+  
+.trip-options figure img {
+    width: 100%;
+    height: auto; 
+    grid-row: 2/2; 
 }
 
 footer {
