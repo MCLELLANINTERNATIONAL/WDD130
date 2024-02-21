@@ -111,8 +111,15 @@ header-nav a:hover {
   text-decoration: none;
 }
 
-main {
-  padding: 20px
+.hero,
+.welcome,
+.newsletter {
+    max-width: 840px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 2px solid hsl(201, 100%, 36%);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .hero {
@@ -127,8 +134,8 @@ main {
   left: 0;
   right: 0;
   margin: auto;
-  width: 98%;
-  margin-left: 1px;
+  width: 92%;
+  margin-left: 25px;
   padding: 15px;
   text-align: center;
   font-size: 3rem;

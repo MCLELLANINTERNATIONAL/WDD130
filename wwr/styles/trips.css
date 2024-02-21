@@ -110,6 +110,15 @@ header-nav a:hover {
     text-decoration: none;
 }
 
+.hero,
+.trips,
+.trip-description
+.trip-options {
+    max-width: 840px;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
 .hero {
     position: relative;
     display: flex;
@@ -202,7 +211,7 @@ section h2 {
  /* Targeting articles in the section with 'Featured Trips' header */
 .trip-description article {
     /* Add any necessary styling for the article here */
-    font-weight: 200;
+    font-weight: 400;
     font-size: 1rem;
 }
 
