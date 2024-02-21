@@ -279,8 +279,8 @@ header-nav a:hover {
 .newsletter input[type="text"],
 .newsletter input[type="email"] {  
     display: inline;
-    width: 38%;
-    margin: 10px 0;
+    width: 40%;
+    margin: 5px 0;
 }
 
 .newsletter input[type="checkbox"] {
